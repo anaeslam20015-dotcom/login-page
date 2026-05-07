@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-image: url("https://rowadbusiness.com/post/wp-content/uploads/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%A8%D8%AC%D9%88%D8%AF%D8%A9.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container {
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 80%;
+  max-width: 500px;
+  height: 70%;
+  padding-top: 40px;
+  border-radius: 15px;
+  background-color: rgba(59, 140, 207, 0.277);
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  display: grid;
+  justify-items: center;
+}
+.container .all-name {
+  display: flex;
+  gap: 15px;
+}
+.all-name #Fname,
+.all-name #Sname {
+  width: 50%;
+}
+input {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+input:focus {
+  border: rgb(6, 217, 228) 2px solid;
+}
+#btn {
+  margin-top: 15px;
+  width: 70%;
+  height: 40px;
+  text-align: center;
+  color: white;
+  background-color: rgba(21, 143, 237, 0.751);
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#btn:active {
+  background-color: rgba(38, 122, 158, 0.751);
+}

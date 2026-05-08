@@ -9,13 +9,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  background-image: url("https://rowadbusiness.com/post/wp-content/uploads/%D8%B5%D9%88%D8%B1-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B3%D8%B7%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8-%D9%84%D9%84%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%A8%D8%AC%D9%88%D8%AF%D8%A9.jpeg");
+  background: linear-gradient(145deg, purple, cadetblue);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-}
+} /* cadetblue */
 .container {
   display: grid;
   justify-items: center;
@@ -25,7 +25,15 @@ body {
   height: 70%;
   padding-top: 40px;
   border-radius: 15px;
-  background-color: rgba(59, 140, 207, 0.277);
+  background-color: rgba(135, 195, 222, 0.321);
+}
+.container h1 {
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.container h1:hover {
+  background-color: rgba(0, 136, 255, 0.3);
 }
 .container .header {
   display: flex;
@@ -46,9 +54,12 @@ form {
 input {
   width: 400px;
   height: 30px;
-  border-radius: 10px;
+  background-color: rgba(250, 235, 215, 0);
+  color: white;
   outline: none;
   border: none;
+  border-bottom: white 3px solid;
+  border-radius: 5px;
   margin-bottom: 10px;
   padding: 5px 15px;
   font-size: 16px;
@@ -56,7 +67,10 @@ input {
   transition: 0.3s;
 }
 input:focus {
-  border: rgb(6, 217, 228) 2px solid;
+  border-bottom: rgb(6, 169, 228) 3px solid;
+}
+input::placeholder {
+  color: white;
 }
 #btn {
   margin-top: 15px;

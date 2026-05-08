@@ -6,27 +6,27 @@ let btn = document.getElementById("fo");
 
 btn.onsubmit = function (e) {
   if (Fname.value === "") {
-    Fname.style.border = "2px solid red";
+    Fname.style.borderBottom = "3px solid red";
     e.preventDefault();
   } else {
-    Fname.style.border = "2px solid green";
+    Fname.style.borderBottom = "3px solid green";
   }
   if (Sname.value === "") {
-    Sname.style.border = "2px solid red";
+    Sname.style.borderBottom = "3px solid red";
     e.preventDefault();
   } else {
-    Sname.style.border = "2px solid green";
+    Sname.style.borderBottom = "3px solid green";
   }
   if (!/\w+@\w+\.\w+/gi.test(email.value)) {
-    email.style.border = "2px solid red";
+    email.style.borderBottom = "3px solid red";
     e.preventDefault();
   } else {
-    email.style.border = "2px solid green";
+    email.style.borderBottom = "3px solid green";
   }
   if (pass.value.length < 6) {
-    pass.style.border = "2px solid red";
+    pass.style.borderBottom = "3px solid red";
     e.preventDefault();
   } else {
-    pass.style.border = "2px solid green";
+    pass.style.borderBottom = "3px solid green";
   }
 };

@@ -28,12 +28,13 @@ body {
   background-color: rgba(135, 195, 222, 0.321);
 }
 .container h1 {
-  padding: 10px;
-  border-radius: 10px;
-  transition: 0.3s;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.9s;
 }
 .container h1:hover {
-  background-color: rgba(0, 136, 255, 0.3);
+  background-color: rgba(0, 255, 225, 0.755);
+  color: black;
 }
 .container .header {
   display: flex;
@@ -64,10 +65,12 @@ input {
   padding: 5px 15px;
   font-size: 16px;
   font-weight: 500;
-  transition: 0.3s;
+  transition: 0.5s;
+  text-align: center;
 }
 input:focus {
   border-bottom: rgb(6, 169, 228) 3px solid;
+  text-align: start;
 }
 input::placeholder {
   color: white;

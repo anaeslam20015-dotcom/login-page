@@ -26,10 +26,15 @@ body {
   padding-top: 40px;
   border-radius: 15px;
   background-color: rgba(135, 195, 222, 0.321);
+  transition: 0.4s;
+}
+.container:hover {
+  box-shadow: 1px 1px 15px 5px rgb(176, 230, 216);
 }
 .container h1 {
   padding: 20px;
   border-radius: 20px;
+  text-shadow: 1px 4px 2px rgb(0, 153, 255);
   transition: 0.9s;
 }
 .container h1:hover {
@@ -93,7 +98,7 @@ input::placeholder {
   background-color: rgba(38, 122, 158, 0.751);
 }
 @media (max-width: 500px) {
-  h1{
+  h1 {
     font-size: 27px;
     padding: 5px;
   }

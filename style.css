@@ -33,7 +33,7 @@ body {
   transition: 0.9s;
 }
 .container h1:hover {
-  background-color: rgba(0, 255, 225, 0.755);
+  background-color: rgba(0, 204, 255, 0.345);
   color: black;
 }
 .container .header {
